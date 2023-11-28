@@ -1,0 +1,60 @@
+.banner {
+
+    background-image: url('image/jaune.png');
+    background-size: cover;
+    margin-bottom: 100px;
+    height: 150px;
+    background-position: center;
+
+
+}
+
+
+.menu {
+    position: relative;
+    bottom: 30px;
+    right: 200px;
+    font-size: 30px;
+    margin: 0px 100px;
+    font-family: "Inter";
+
+
+
+}
+
+.menu th {
+    padding: 0 35px;
+}
+
+.imageEpic {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 5px;
+    left: 50px;
+}
+
+.menu a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.menu a:hover,
+.menu a:active {
+    text-decoration: underline !important;
+    color: black !important;
+}
+
+.connexion {
+    height: 50px;
+    position: relative;
+    left: 625px;
+
+}
+
+.bonhomme {
+    height: 50px;
+    position: relative;
+    left: 435px;
+
+}

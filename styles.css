@@ -58,3 +58,24 @@
     left: 435px;
 
 }
+
+.contentbackground {
+
+    background-image: url('/image/MicrosoftTeams-image\ \(1\).png');
+    height: 800px;
+    position:relative;
+    bottom:100px;
+    text-align:center;
+    font-family: 'Myanmar Khyay', sans-serif;
+    color:white;
+    
+   
+
+
+}
+
+.contentbackground h1 {
+    position:relative;
+    top:60px;
+    
+}

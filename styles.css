@@ -79,3 +79,46 @@
     top:60px;
     
 }
+
+
+.countrybanner {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 800px;
+    left: 1500px;
+  }
+  
+  .countrybanner img {
+    max-width: 100%;
+    border-radius: 23px;
+    height: 600px;
+    border: 2px solid black;
+  }
+  
+  .countrybanner {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    margin-top: 20px;
+    position: relative;
+    bottom: 800px;
+    left: 1500px;
+  }
+  
+ 
+  
+  .countrybanner p {
+    margin: 0;
+    font-size: 30px;
+    background-color: yellow;
+    color: #333;
+    padding: 5px;
+    border: 1px solid yellow;
+    border-radius: 25px 25px 0 0;
+    width: 70%; 
+    margin-left: auto;
+    margin-right: auto;
+  }

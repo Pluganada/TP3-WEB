@@ -81,15 +81,7 @@
 }
 
 
-.countrybanner {
-    text-align: center;
-    position: relative;
-    width: 300px;
-    margin-top: 20px;
-    position: relative;
-    bottom: 800px;
-    left: 1500px;
-  }
+
   
   .countrybanner img {
     max-width: 100%;
@@ -101,11 +93,12 @@
   .countrybanner {
     text-align: center;
     position: relative;
-    width: 300px;
+    width: 320px;
     margin-top: 20px;
     position: relative;
     bottom: 800px;
-    left: 1500px;
+    right:10px;
+    margin-left:50px;
   }
   
  

@@ -5,6 +5,7 @@ body {
 
 }
 
+
 .banner {
     width: 2000px;
     background-image: url('image/jaune.png');
@@ -149,7 +150,7 @@ body {
     color: yellow;
     position: relative;
     bottom: 20px;
-    /* Adjust spacing */
+
     font-size: 15px;
     left: 15px;
 }
@@ -197,15 +198,140 @@ body {
 
 }
 
-.histoire{
-    
+.histoire {
+
     text-align: center;
-    color:maroon;
-    font-size:16px;
-    position:relative;
-    bottom:100px;
+    color: maroon;
+    font-size: 16px;
+    position: relative;
+    bottom: 100px;
     background-image: url('/image/whitemountain.jpg');
-    height:1290px;
-    width:1900px;
+    height: 1290px;
+    width: 1900px;
 }
 
+
+
+
+.imageprojet {
+    position: relative;
+    top:15px;
+    left: 0px;
+    width: 60px;
+
+}
+
+.imageux {
+    position: relative;
+
+    left: 5px;
+    width: 40px;
+    top:15px;
+
+}
+
+.imagetv {
+    position: relative;
+
+    left: 0px;
+    width: 50px;
+    bottom:10px;
+
+}
+.projetinfo {
+    position: relative;
+    left: 1350px;
+    bottom: 320px;
+    font-size: 13px;
+    text-align: center;
+
+
+}
+.aspectvisuel {
+    position: relative;
+    left:30px;
+    bottom: 110px;
+    font-size: 13px;
+    text-align: center;
+
+
+}
+.principauxdefi {
+    position: relative;
+    right:1380px;
+    bottom: 120px;
+    font-size: 13px;
+    text-align: center;
+   
+
+
+}
+
+.footer_propos {
+
+    position: relative;
+    width: 2100px;
+    bottom: 121px;
+    height: 250px;
+
+    background-color: rgb(117, 81, 81);
+
+}
+
+.imageF_propos img {
+    width: 100px;
+    position: relative;
+    left: 0;
+}
+
+.destination_propos {
+    color: yellow;
+    position: relative;
+    bottom: 20px;
+
+    font-size: 15px;
+    left: 15px;
+}
+
+.contact-info_propos {
+
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    color: black;
+
+}
+
+
+.social-icons_propos img {
+    display: flex;
+    width: 60px;
+    position: relative;
+    bottom: 150px;
+    left: 1500px;
+}
+
+
+
+.credits_propos {
+    position: relative;
+    bottom: 200px;
+    left: 650px
+}
+
+.interet_propos {
+    position: relative;
+    bottom: 150px;
+    left: 1510px;
+
+
+}
+
+.payment_propos img {
+    position: relative;
+    bottom: 400px;
+    left: 705px;
+
+
+}

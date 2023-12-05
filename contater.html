@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=1200, initial-scale=1.0">
     <title>Contacter</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <meta name="viewport" content="width=12000, initial-scale=1.0">
+
 
     </div>
 </head>
 
-<body>
+<body class="bodycontacter">
+    
     <!-- Navigation principale-->
     <header>
         <div class="banner">
@@ -40,4 +41,125 @@
             </table>
         </div>
     </header>
+    <main>
+       
+
+            <h1 class="contactezmaintenant">
+                Contactez nous <br> dès maintenant!
+            </h1>
+
+            <section class="formcarry-container">
+                <form action="/server.html" method="post">
+
+                    <div class="formcarry-block">
+                        <label for="fc-generated-1-name">Nom complet</label>
+                        <input type="text" name="name" id="fc-generated-1-name" placeholder="Votre nom et prénom" />
+                    </div>
+
+                    <div class="formcarry-block">
+                        <label for="fc-generated-1-email">Adresse e-mail</label>
+                        <input type="email" name="email" id="fc-generated-1-email" placeholder="john@doe.com" />
+                    </div>
+
+                    <div class="formcarry-block">
+                        <label for="fc-generated-1-phone">Numéro de téléphone</label>
+                        <input type="tel" name="phone" id="fc-generated-1-phone"
+                            placeholder="Votre numéro de téléphone" />
+                    </div>
+
+                    <div class="formcarry-block">
+                        <label for="fc-generated-1-address">Adresse</label>
+                        <input type="text" name="address" id="fc-generated-1-address" placeholder="Votre adresse" />
+                    </div>
+
+                    <div class="formcarry-block">
+                        <label for="fc-generated-1-postal-code">Code postal</label>
+                        <input type="text" name="postal_code" id="fc-generated-1-postal-code"
+                            placeholder="Votre code postal" />
+                    </div>
+                    <div class="formcarry-block">
+                        <label for="fc-generated-1-gender">Genre</label>
+                        <select name="gender" id="fc-generated-1-gender">
+                            <option value="male">Homme</option>
+                            <option value="female">Femme</option>
+                            <option value="non-binary">Non-binaire</option>
+                           
+                        </select>
+                    </div>
+                    <div class="formcarry-block">
+                        <label for="fc-generated-1-language">Langue Préférée</label>
+                        <select name="language" id="fc-generated-1-language">
+                            <option value="french">Français</option>
+                            <option value="english">Anglais</option>
+                            <option value="spanish">Espagnol</option>
+                        </select>
+                    </div>
+                    <div class="formcarry-block">
+                        <label for="fc-generated-1-message">Votre message</label>
+                        <textarea name="message" id="fc-generated-1-message"
+                            placeholder="Entrez votre message..."></textarea>
+                    </div>
+
+                    <div class="formcarry-block">
+                        <button type="submit">Envoyer</button>
+                        
+                    </div>
+                    
+
+                </form>
+            </section>
+
+        
+
+    </main>
+    <footer class="footer_contacter" >
+        <div class="imageF_contacter">
+            <img src="/image/MicrosoftTeams-image (2).png">
+        </div>
+        <h3 class="destination_contacter">Trouvez votre nouvelle destination avec ePicVoyage !</h3>
+        <div class="contact-info_contacter">
+
+            <p>390, rue Laval, QC H2Y 1T9</p>
+            info@ePicVoyage.com<br>1 123 456 7890</p>
+        </div>
+        <table>
+            <tr class="social-icons_contacter">
+                <div class="interet_contacter">
+                    <h2> Interessez de nous rejoindre? </h2>
+                </div>
+                <th>
+                    <a href="#" target="_blank"><img src="/image/facebook.png" alt="Facebook"></a>
+                </th>
+                <th>
+                    <a href="#" target="_blank"><img src="/image/twutta.png" alt="Twitter"></a>
+                </th>
+                <th>
+                    <a href="#" target="_blank"><img src="/image/uinstaaa.png" alt="Instagram"></a>
+                </th>
+                <th>
+                    <a href="#" target="_blank"><img src="/image/yt.png" alt="YouTube"></a>
+                </th>
+                <th>
+                    <a href="#" target="_blank"><img src="/image/linkedin-logo-3.png" alt="Linkedin"></a>
+                </th>
+
+            </tr>
+
+
+
+
+
+        </table>
+
+
+        <p class="credits_contacter">Tous droits réservés © 2010-2023 ePic Voyage, Titulaire d’un permis du Québec. |
+            Crédits Hamak</p>
+
+        <div class="payment_contacter">
+            <img src="/image/stripe.png">
+        </div>
+    </footer>
+
 </body>
+
+</html>

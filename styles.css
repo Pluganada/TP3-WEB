@@ -26,7 +26,18 @@
     background-image: url('/image/jesus.png');
     background-size: cover; 
     background-position: center;
+    
 
+}
+
+.bodymedia {
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    background-image: url('/image/homepage-header-background-beach.jpg');
+    background-size: cover; 
+    background-position: center;
+    overflow: hidden;
 }
 
 
@@ -588,3 +599,106 @@
 
 }
 /* Fin de footer de la page contacter */
+
+
+/* Vidéos */
+.videolocal {
+position:relative;
+left:70px;
+bottom:50px;
+
+
+}
+
+.videoyt {
+
+    position:relative;
+    left:1200px;
+    bottom:480px;
+    height:370px;
+}
+.audio {
+position:relative;
+left:250px;
+bottom:320px;
+
+
+}
+
+.texteaudio {
+    color:white;
+    position:relative;
+    
+    text-align:center;
+}
+
+/* Footer Media */
+
+.footer_media {
+
+    position: relative;
+    width: 2100px;
+    bottom: 310px;
+    height: 250px;
+
+    background-color: rgb(117, 81, 81);
+
+}
+
+.imageF_media img {
+    width: 100px;
+    position: relative;
+    left: 0;
+}
+
+.destination_media {
+    color: yellow;
+    position: relative;
+    bottom: 20px;
+
+    font-size: 15px;
+    left: 15px;
+}
+
+.contact-info_media {
+
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+    bottom: 20px;
+    color: black;
+
+}
+
+
+.social-icons_media img {
+    display: flex;
+    width: 60px;
+    position: relative;
+    bottom: 150px;
+    left: 1500px;
+}
+
+
+
+.credits_media {
+    position: relative;
+    bottom: 200px;
+    left: 650px
+}
+
+.interet_media {
+    position: relative;
+    bottom: 150px;
+    left: 1510px;
+
+
+}
+
+.payment_media img {
+    position: relative;
+    bottom: 400px;
+    left: 705px;
+
+
+}

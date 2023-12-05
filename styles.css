@@ -1,9 +1,23 @@
-body {
+.histoirebody {
     margin: 0;
     padding: 0;
     overflow: hidden;
 
 }
+.indexbody {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.proposbody {
+    margin: 0;
+    padding: 0;
+    
+
+}
+
 
 
 .banner {
@@ -212,67 +226,24 @@ body {
 
 
 
-
-.imageprojet {
-    position: relative;
-    top:15px;
-    left: 0px;
-    width: 60px;
-
-}
-
-.imageux {
-    position: relative;
-
-    left: 5px;
-    width: 40px;
-    top:15px;
-
-}
-
-.imagetv {
-    position: relative;
-
-    left: 0px;
-    width: 50px;
-    bottom:10px;
-
-}
 .projetinfo {
     position: relative;
-    left: 1350px;
-    bottom: 320px;
-    font-size: 13px;
-    text-align: center;
-
-
-}
-.aspectvisuel {
-    position: relative;
-    left:30px;
-    bottom: 110px;
-    font-size: 13px;
-    text-align: center;
-
-
-}
-.principauxdefi {
-    position: relative;
-    right:1380px;
-    bottom: 120px;
-    font-size: 13px;
-    text-align: center;
+    left: 10px;
+    bottom: 30px;
+    font-size: 20px;
    
 
 
 }
 
+
 .footer_propos {
 
     position: relative;
     width: 2100px;
-    bottom: 121px;
-    height: 250px;
+    bottom: 8px;
+    height: 350px;
+    
 
     background-color: rgb(117, 81, 81);
 
@@ -282,24 +253,26 @@ body {
     width: 100px;
     position: relative;
     left: 0;
+
 }
 
 .destination_propos {
     color: yellow;
     position: relative;
     bottom: 20px;
-
-    font-size: 15px;
+    font-size: 20px;
+    
     left: 15px;
 }
 
 .contact-info_propos {
 
     font-size: 18px;
-    position: relative;
+    position: absolute;
     left: 20px;
     bottom: 20px;
     color: black;
+    font-size: 25px;
 
 }
 
@@ -308,7 +281,7 @@ body {
     display: flex;
     width: 60px;
     position: relative;
-    bottom: 150px;
+    bottom: 10px;
     left: 1500px;
 }
 
@@ -316,22 +289,24 @@ body {
 
 .credits_propos {
     position: relative;
-    bottom: 200px;
-    left: 650px
+    bottom: 10px;
+    left: 550px;
+    font-size: 20px;
 }
 
 .interet_propos {
     position: relative;
-    bottom: 150px;
+    bottom: 10px;
     left: 1510px;
 
 
 }
 
 .payment_propos img {
-    position: relative;
-    bottom: 400px;
+    position: absolute;
+    bottom: 100px;
     left: 705px;
+   
 
 
 }
